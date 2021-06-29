@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+body {
+    font-family: 'Patrick Hand', cursive;
+    margin:0rem;
+    box-sizing: border-box;
+    background-image:url("https://th.bing.com/th/id/Rcd616c4f2d715b571816ef42ed4a6450?rik=RFO2O802nxvbOA&riu=http%3a%2f%2fs1.picswalls.com%2fwallpapers%2f2014%2f04%2f19%2fsea-pirate-wallpaper_123214346_36.jpg&ehk=T65bpLXanG8QN5%2bni5h8s5OjbvsnbzGMNIYcRTb0qH0%3d&risl=&pid=ImgRaw");
+
+}
+
+:root{
+    --primary-color:#111827;
+    --light:#D1D5DB;
+    --button:#E5E7EB;
+
+}
+
+.navigation{
+    background-color:var(--primary-color);
+    color: white;
+    padding:1rem;
+}
+
+.navigation .pirate {
+    text-align: center;
+}
+
+.head {
+    text-align: center;
+    color:black;
+    text-shadow:1px 1px yellow;
+
+}
+
+.container {
+    width: 45%;
+    margin: 10vh auto;
+}
+
+#txt-input {
+    display: block;
+    font-size: large;
+    background-color:var(--light) ;
+    height: 8rem;
+    width: 100%;
+    border: 1px solid whitesmoke;
+    padding: 1rem;
+    resize: none;
+}
+
+#btn-translate {
+    padding: 1rem;
+    background-color: var(--button);
+    border: 2px solid gray;
+    margin: 1rem 0;
+    text-shadow:2px 1px gray;
+}
+
+#output {
+    background-color:var(--light);
+    padding: 1rem;
+    height: 8rem;
+    border: 2px solid white;
+    margin-bottom:4rem ;
+}
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 1rem 0rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .center{
+    text-align: center;
+    padding:0 10rem;
+}
+
